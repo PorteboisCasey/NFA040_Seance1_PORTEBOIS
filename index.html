@@ -1,10 +1,53 @@
+<!DOCTYPE html>
 <html>
 <head>
         <meta charset="UTF-8"/>
         <title>NFA040</title>
+        <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    max-width: 800px;
+                    margin: 20px auto;
+                    padding: 20px;
+                    background-color: #f0f0f0;
+                }
+                h1 {
+                    color: #2c3e50;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+                .button-container {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                    gap: 20px;
+                    margin-top: 30px;
+                }
+                .button {
+                    display: block;
+                    padding: 15px 20px;
+                    background-color: #3498db;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    text-align: center;
+                    transition: transform 0.2s, background-color 0.2s;
+                }
+                .button:hover {
+                    background-color: #2980b9;
+                    transform: translateY(-2px);
+                }
+        </style>
 </head>
         
 <body>
-        <h1>Ceci est mon Site Internet NFA040 </h1>
+        <h1>Mon premier site Web - TP HTML</h1>
+        
+        <div class="button-container">
+            <a href="page1.html" class="button">Exercice 1 - Première page HTML</a>
+            <a href="exercice2.html" class="button">Exercice 2 - Tableaux et Listes</a>
+            <a href="formulaire.html" class="button">Exercice 3 - Formulaire</a>
+            <a href="cv_exo4.html" class="button">Exercice 4 - CV</a>
+            <a href="frames.html" class="button">Exercice 5 - Frames CV</a>
+        </div>
 </body>
 </html>
