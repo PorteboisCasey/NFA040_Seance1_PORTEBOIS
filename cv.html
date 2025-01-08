@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .cv-container {
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            vertical-align: top;
+        }
+        .year {
+            width: 20%;
+            color: #3498db;
+            font-weight: bold;
+        }
+        .description {
+            width: 80%;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <div class="photo">Photo</div>
+            <h1>John Doe</h1>
+            <p>Développeur Web</p>
+        </div>
+
+        <h2>Formation</h2>
+        <table>
+            <tr>
+                <td class="year">2022-2023</td>
+                <td class="description">
+                    <strong>Master en Développement Web</strong>
+                    <ul>
+                        <li>Université de Paris</li>
+                        <li>Spécialisation en JavaScript et frameworks modernes</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="year">2019-2022</td>
+                <td class="description">
+                    <strong>Licence Informatique</strong>
+                    <ul>
+                        <li>Université de Lyon</li>
+                        <li>Major de promotion</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Expérience professionnelle</h2>
+        <table>
+            <tr>
+                <td class="year">2023-Présent</td>
+                <td class="description">
+                    <strong>Développeur Full Stack - TechCorp</strong>
+                    <ul>
+                        <li>Développement d'applications web avec React et Node.js</li>
+                        <li>Gestion d'une équipe de 3 développeurs</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="year">2022-2023</td>
+                <td class="description">
+                    <strong>Stage - StartupWeb</strong>
+                    <ul>
+                        <li>Développement frontend avec Vue.js</li>
+                        <li>Intégration d'APIs RESTful</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Compétences</h2>
+        <table>
+            <tr>
+                <td class="year">Langages</td>
+                <td class="description">
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>PHP, Python, Java</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="year">Frameworks</td>
+                <td class="description">
+                    <ul>
+                        <li>React, Vue.js, Angular</li>
+                        <li>Node.js, Express</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Informations complémentaires</h2>
+        <table>
+            <tr>
+                <td class="year">Langues</td>
+                <td class="description">
+                    <ul>
+                        <li>Français (langue maternelle)</li>
+                        <li>Anglais (courant)</li>
+                        <li>Espagnol (intermédiaire)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="year">Centres d'intérêt</td>
+                <td class="description">
+                    <ul>
+                        <li>Développement de projets open source</li>
+                        <li>Participation à des hackathons</li>
+                        <li>Veille technologique</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
